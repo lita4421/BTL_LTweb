@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="index.css">
+     <title>Đăng ký tài khoản</title>
+</head>
+
+<body>
+    <div id="user-panel " class="container user-panel">
+        <a href="./login.html" class=" login">Đăng Nhập</a>
+        <a href="./register.html" class=" register">Đăng Ký</a>
+    </div> <!--login-container-->
+    <header id="header">
+        
+        
+        <div id="menu">
+            <ul >
+                <li>
+                    <a  href="./index.html">Tủ Sách</a>
+                </li>
+                <li class="">
+                    <a class="" href="#" id="navbarDropdown" >
+                        Thể Loại
+                    </a>
+                    <ul class="sub-menu" >
+                        <li><a class="dropdown-item" href="./category.html?cat=new">Xuyên không </a></li>
+                        <li><a class="dropdown-item" href="./category.html?cat=fiction">Giả Tưởng</a></li>
+                        <li><a class="dropdown-item" href="./category.html?cat=business">Kinh Doanh</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#" tabindex="-1">Đăng Truyện</a>
+                </li>
+                <li>
+                    <form class="d-flex">
+                        <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                        <button class=" btn-outline-success" type="submit">Search</button>
+                    </form>
+                </li>      
+            </ul>                   
+        </div><!--menu-->
+     
+    </header> <!--#header-->
+
+    <div class="register-new" style="min-height: 30rem;">
+        <p class="display-4 ">Đăng Ký</p>
+            
+        <form class="  container " style="max-width: 10.4rem;" >
+            <div class="mb-3">
+                
+                <label for="exampleInputEmail1" class="form-label">Tài Khoản</label><br>
+          
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Mật Khẩu</label> <br>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                
+                    <label for="exampleInputPassword2" class="form-label">Nhập Lại Mật Khẩu</label><br>
+               
+                
+                <input type="password" class="form-control" id="exampleInputPassword2">
+            </div>
+            
+            <button type="submit" class="btn-primary">Đăng ký</button>
+            <div class="note">
+                 <p>Đã có tài khoản?</p><a href="login.html">Đăng Nhập</a>
+            </div>
+        </form>
+        
+    </div>
+</body>
+
+</html>
